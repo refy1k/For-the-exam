@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace For_the_exam
 {
@@ -13,7 +14,10 @@ namespace For_the_exam
             {
                 case 1:
                     {
-
+                        string textFile = "Привет мир! Хорошая сегодня! ";
+                        string pattern = ". ";
+                        string result = Regex.Replace(textFile, pattern, "");
+                        Console.WriteLine(result);
                         break;
                     }
                 case 2:
