@@ -22,7 +22,6 @@ namespace For_the_exam
                     }
                 case 2:
                     {
-
                         break;
                     }
                 case 3:
